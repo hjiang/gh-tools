@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "gh-tools"
+version = "0.1.0"
+description = ""
+authors = ["Hong Jiang <lazyseq@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pygithub = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
